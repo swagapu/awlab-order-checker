@@ -55,7 +55,7 @@ async def help(ctx):
 @bot.command(pass_context=True)
 async def awlabcheck(ctx, ordernumber, email, zipcode):
 
-    s = cloudscraper.create_scraper(captcha={'provider':'2captcha','api_key': 'c75008aa5ed9b23551f6766476b8a234'})
+    s = cloudscraper.create_scraper(captcha={'provider':'2captcha','api_key': '2caphere'})
 
 
     mainheaders = {
